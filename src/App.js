@@ -9,7 +9,7 @@ import WC from './web-components/web-components';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/avaye-site">
         <NavigationBar/>
         <Switch>
           <Route path = '/' component={Home} exact/>
