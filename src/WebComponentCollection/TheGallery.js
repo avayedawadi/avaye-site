@@ -8,6 +8,7 @@ export class TheGallery extends LitElement {
         this.slotElement = this.querySelectorAll("img");
         this.imageIndex = 0;
         this.buttonOnTop = "false";
+        this.selectionIndicator = "true"
 
         window.onload = function() {
           if(!window.location.hash) {
@@ -62,7 +63,9 @@ export class TheGallery extends LitElement {
             button.style.border = "5px solid black";
             if (i == this.imageIndex) {
                 button.style.opacity = '100%';
-                button.style.borderTop = "thick solid #00fab7";
+                console.log(this.selectionIndicator);
+                button.style.borderTop = (this.selectionIndicator === "true" ? "thick solid #00fab7" : "5px solid black");
+                console.log(button.style.borderTop);
             }
             str1.appendChild(button);
         }
@@ -197,4 +200,7 @@ __decorate([
 __decorate([
     property()
 ], TheGallery.prototype, "buttonOnTop", void 0);
+__decorate([
+  property()
+], TheGallery.prototype, "selectionIndicator", void 0);
 //# sourceMappingURL=TheGallery.js.map

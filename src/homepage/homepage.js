@@ -19,7 +19,7 @@ const Home = () => {
                 </div>
             </div>
             <h1 style={{ textAlign: "center" }}>Picture Gallery</h1>
-            <the-gallery buttonOnTop="false">
+            <the-gallery buttonOnTop="false" selectionIndicator="false">
                 <img src="https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"></img>
                 <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg"></img>
                 <img src="https://cdn.britannica.com/84/73184-004-E5A450B5/Sunflower-field-Fargo-North-Dakota.jpg"></img>
