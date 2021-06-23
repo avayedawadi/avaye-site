@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/avaye-site/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/avaye-site/static/js/main.d4a58187.chunk.js",
+    "main.js.map": "/avaye-site/static/js/main.d4a58187.chunk.js.map",
+    "runtime-main.js": "/avaye-site/static/js/runtime-main.80c50780.js",
+    "runtime-main.js.map": "/avaye-site/static/js/runtime-main.80c50780.js.map",
+    "static/js/2.90ba9576.chunk.js": "/avaye-site/static/js/2.90ba9576.chunk.js",
+    "static/js/2.90ba9576.chunk.js.map": "/avaye-site/static/js/2.90ba9576.chunk.js.map",
+    "static/js/3.ae2741d8.chunk.js": "/avaye-site/static/js/3.ae2741d8.chunk.js",
+    "static/js/3.ae2741d8.chunk.js.map": "/avaye-site/static/js/3.ae2741d8.chunk.js.map",
+    "index.html": "/avaye-site/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/avaye-site/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.90ba9576.chunk.js.LICENSE.txt": "/avaye-site/static/js/2.90ba9576.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/avaye-site/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80c50780.js",
+    "static/js/2.90ba9576.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.d4a58187.chunk.js"
+  ]
+}
