@@ -1,9 +1,14 @@
 import React from 'react';
 import '../WebComponentCollection/the-gallery';
+import 'pugh-chart'
+
 //let customElements = window.customElements;
 //customElements.get('the-gallery') || customElements.define('the-gallery', TheGallery);
 
 const Home = () => {
+    const categories = ['Price','Fun','Complexity'];
+    const weights = [1,2,3];
+    const options = [["Car",1,-2,2],["Bike",-3,3,3],["Train",1,1,1]];
     return (
         <>  
             <link
@@ -26,6 +31,7 @@ const Home = () => {
                 <img src="https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?cs=srgb&dl=pexels-pixabay-60597.jpg&fm=jpg"></img>
                 <img src="https://www.legacy.com/wp-content/uploads/2020/01/Sympathy-flowers-orange-1000-shutterstock_694680475-1200x900.jpg"></img>
             </the-gallery>
+            <pugh-chart inputCategories="Price,Fun,Complexity" inputWeights = "1,2,3" inputOptions="Car,1,1,1/Bike,2,2,2"></pugh-chart>
         </>
     );
 }
