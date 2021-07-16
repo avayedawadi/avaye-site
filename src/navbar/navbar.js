@@ -5,10 +5,8 @@ import { Link } from 'react-scroll';
 
 
 const NavigationBar = () => {
-
-
+    document.addEventListener("logout",()=>{window.location.replace("https://www.youtube.com/watch?v=Gb2jGy76v0Y")});
     return (
-
         <>
             <link
                 rel="stylesheet"

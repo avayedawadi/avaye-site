@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'idle-timeout-component'
 
 ReactDOM.render(
   <React.StrictMode>
+    <idle-timeout-component timeToLogout="60" timeToNotify="300"></idle-timeout-component>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

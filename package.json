@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "idle-timeout-component": "^0.0.1",
     "lit": "^2.0.0-rc.2",
     "lit-element": "^3.0.0-rc.2",
     "pugh-chart": "^0.0.3",
