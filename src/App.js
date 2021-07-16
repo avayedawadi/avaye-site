@@ -5,6 +5,7 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import NavigationBar from './navbar/navbar';
 import WC from './web-components/web-components';
+import storybookComponent from './storybook-component/storybook-component';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route path = '/' component={Home} exact/>
           <Route path = '/wc' component={WC} exact/>
+          <Route path = '/storybookComponent' component={storybookComponent} exact/>
         </Switch>
       </Router>
     </>

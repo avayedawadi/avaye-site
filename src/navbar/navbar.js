@@ -22,6 +22,7 @@ const NavigationBar = () => {
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/wc">Web Components</Nav.Link>
+                        <Nav.Link href="/storybookComponent">Storybooks</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
