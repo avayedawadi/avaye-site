@@ -9,7 +9,9 @@ const Home = () => {
     const categories = ['Price','Fun','Complexity'];
     const weights = [1,2,3];
     const options = [["Car",1,-2,2],["Bike",-3,3,3],["Train",1,1,1]];
-    
+    window.onload = (event) => {
+        setTimeout(function(){ window.location.reload(); }, 500);
+      };
     return (
         <>  
             <link

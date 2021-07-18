@@ -10,12 +10,12 @@ export class TheGallery extends LitElement {
         this.buttonOnTop = "false";
         this.selectionIndicator = "true"
 
-        window.onload = function() {
+        /*window.onload = function() {
           if(!window.location.hash) {
               window.location = window.location + '#loaded';
               window.location.reload();
           }
-      }
+      }*/
         
         
     }
