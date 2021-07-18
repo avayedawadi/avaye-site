@@ -11,7 +11,7 @@ import storybookComponent from './storybook-component/storybook-component';
 function App() {
   return (
     <>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/avaye-site">
         <NavigationBar/>
         <Switch>
           <Route path = '/' component={Home} exact/>
