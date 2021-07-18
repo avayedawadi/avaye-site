@@ -16,6 +16,7 @@ export class TheGallery extends LitElement {
               window.location.reload();
           }
       }*/
+        console.log(this.slotElement)
         
         
     }
@@ -24,7 +25,7 @@ export class TheGallery extends LitElement {
       <p class="imageCounter">${this.imageIndex + 1 + "/" + this.slotElement.length}</p>
       <div class="contain">
       <button style="display: ${this.buttonOnTop === "true" ? '' : 'none'}"  class="left slideButton" @click="${this._decrement}">&#10094;</button>
-      <img src="${this.slotElement.length > 0 && this.slotElement[this.imageIndex].currentSrc}"></img>
+      <img src="${this.slotElement.length > 0 && this.slotElement[this.imageIndex].currentSrc}" onerror="setTimeout(function(){ window.location.reload(); }, 500)"></img>
       <button style="display: ${this.buttonOnTop === "true" ? '' : 'none'}" class="right slideButton" @click="${this._increment}">&#10095;</button>
       </div>
       <div class="buttonContain">
@@ -52,10 +53,12 @@ export class TheGallery extends LitElement {
         }
     }
     _anchors() {
+        console.log(this.slotElement);
         var str1 = document.createElement('div');
         str1.className = "anchorsDiv";
         for (let i = 0; i < this.slotElement.length; i++) {
             var button = document.createElement('img');
+            button.alt = "Please reload site"
             button.className = "selectionButton";
             button.innerHTML = i.toString();
             button.src = this.slotElement[i].currentSrc;
