@@ -37,12 +37,12 @@ const NavigationBar = () => {
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="/wc">
+              <a class="nav-link">
                 <Link to="/wc">Web Components</Link>
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="/storybookComponent">
+              <a class="nav-link">
               <Link to="/storybookComponent">Storybooks</Link>
               </a>
             </li>
