@@ -5,7 +5,7 @@
   "engines": {
     "node": "16.3.0"
   },
-  "homepage": "http://avayedawadi.github.io/avaye-site",
+  "homepage": "http://avayedawadi.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",

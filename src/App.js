@@ -12,7 +12,7 @@ import storybookComponent from './storybook-component/storybook-component';
 function App() {
   return (
     <>
-      <HashRouter basename="/avaye-site">
+      <HashRouter basename="/">
         <NavigationBar/>
         <Switch>
           <Route path = '/' component={Home} exact/>
