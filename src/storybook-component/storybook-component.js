@@ -1,8 +1,10 @@
 import React from 'react';
+import './storybook-component.css'
 
 const storybookComponent = () =>{
     return(
         <>
+        <div class="storybook">
             <h1>Storybooks for my projects can be found below.</h1>
             <hr></hr>
             <h3>Why use storybook?</h3>
@@ -19,6 +21,7 @@ const storybookComponent = () =>{
             <h4>Idle Timeout Storybook</h4>
             <p>Once you click the link you need to remain idle for 5 seconds for the component to come up. But you can edit everything (including the timings) in the controls.</p>
             <a href="https://avayedawadi.github.io/idleTimeoutStatic/?path=/story/idletimeoutcomponent--regular">Idle Timeout Storybook</a>
+            </div>
         </>
     );
 }

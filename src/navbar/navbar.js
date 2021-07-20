@@ -38,11 +38,6 @@ const NavigationBar = () => {
             </li>
             <li class="nav-item active">
               <a class="nav-link">
-                <Link to="/wc">Web Components</Link>
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link">
               <Link to="/storybookComponent">Storybooks</Link>
               </a>
             </li>
@@ -56,3 +51,10 @@ const NavigationBar = () => {
 };
 
 export default NavigationBar;
+
+/*
+<li class="nav-item active">
+              <a class="nav-link">
+                <Link to="/wc">Web Components</Link>
+              </a>
+            </li>*/
