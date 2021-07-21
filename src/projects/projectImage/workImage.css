@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+.workImageMain{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.workImage{
+    opacity: 1;
+    width: 100%;
+    max-width:200px;
+    height: auto;
+    border-radius: 10%;
+    transition: 0.4s ease;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6), 0 6px 20px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.workImageOverlay{
+    position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.workImage:hover{
+    opacity: 1;
+}
+
+.workImageMain:hover .workImageOverlay{
+    opacity:1;
+}
+
+.cardContainer{
+        position: relative;
+        border-width: .2rem 0 0;
+        margin: auto;
+        width: 50%;
+}

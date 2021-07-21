@@ -7,6 +7,8 @@ import { HashRouter  } from 'react-router-dom'
 import NavigationBar from './navbar/navbar';
 import WC from './web-components/web-components';
 import storybookComponent from './storybook-component/storybook-component';
+import Work from './projects/projects.js'
+import GTRI from './gtri/gtri'
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
           <Route path = '/' component={Home} exact/>
           <Route path = '/wc' component={WC}/>
           <Route path = '/storybookComponent' component={storybookComponent}/>
+          <Route path = '/work' component={Work}/>
+          <Route path = '/gtri' component={GTRI}/>
         </Switch>
       </HashRouter>
     </>

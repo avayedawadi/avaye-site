@@ -41,6 +41,11 @@ const NavigationBar = () => {
               <Link to="/storybookComponent">Storybooks</Link>
               </a>
             </li>
+            <li class="nav-item active">
+              <a class="nav-link">
+              <Link to="/work">My Work</Link>
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
