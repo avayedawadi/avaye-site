@@ -26,7 +26,7 @@ const Home = () => {
                 <div className="center">
                     <h1>Hi, I'm Avaye Dawadi</h1>
                     <p>Thanks for coming!</p>
-                    <Link to="/storybookComponent"><button className="homeButton">About Me</button></Link>
+                    <Link to="/aboutme"><button className="homeButton">About Me</button></Link>
                 </div>
             </div>
            

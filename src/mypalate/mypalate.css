@@ -1,0 +1,28 @@
+.mypalateMain{
+    background: linear-gradient(-45deg, #ed555a, #f6ae66, white);
+    background-size: 100% 100%;
+    width: 100%;
+    margin: 0 auto;
+    min-height:100vh;
+}
+.mypalateMain > .jumbotron{
+    text-align: center;
+}
+
+.mypalateMain > h1{
+    text-align: center;
+}
+
+.aboutmypalateSection{
+    max-width: 60vw;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skillsTags > a{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6), 0 6px 20px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+    border-radius: 80%;
+    margin: 20px;
+}

@@ -1,0 +1,41 @@
+.gtriMain{
+    background: linear-gradient(-45deg, #A4925A, #BFB37C, white);
+    background-size: 100% 100%;
+    width: 100%;
+    margin: 0 auto;
+    min-height:100vh;
+}
+.gtriMain > .jumbotron{
+    text-align: center;
+}
+
+.gtriMain > h1{
+    text-align: center;
+}
+
+.skillsTags{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+}
+
+.skillsTags > a{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6), 0 6px 20px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+    border-radius: 80%;
+    margin: 20px;
+}
+
+.gtriImg{
+    width: auto;
+    height: 300px;
+}
+
+.aboutGtriSection{
+    max-width: 60vw;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
